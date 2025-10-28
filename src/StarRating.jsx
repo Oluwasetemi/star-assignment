@@ -1,4 +1,3 @@
-// import { range } from './utils';
 import { range } from './util';
 
 function StarRating({ rating }) {
@@ -8,7 +7,8 @@ function StarRating({ rating }) {
     <img
       alt=""
       className="gold-star"
-      src="https://sandpack-bundler.vercel.app/img/gold-star.svg"
+      // src="https://sandpack-bundler.vercel.app/img/gold-star.svg"
+      src="/star.svg"
     />
     
     Your job is to repeat this element
@@ -22,7 +22,7 @@ function StarRating({ rating }) {
         key={crypto.randomUUID()}
         alt=""
         className="gold-star"
-        src="https://sandpack-bundler.vercel.app/img/gold-star.svg"
+        src="/star.svg"
       />
     </div>
   );
